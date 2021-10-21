@@ -1,0 +1,47 @@
+/* Add here all your CSS customizations */
+
+.page-header,
+.sidebar-left {
+    background: #145A32;
+    color: #FFF;
+}
+
+.sidebar-left .sidebar-header .sidebar-toggle,
+html.sidebar-left-collapsed .sidebar-left .nano {
+    background: #145A32;
+    color: #FFF;
+}
+
+.sidebar-widget.widget-stats .progress {
+    background: #145A32;
+    box-shadow: 0 1px 0 #CCC inset;
+}
+
+.sidebar-left,
+html.sidebar-left-collapsed .sidebar-left .nano {
+    box-shadow: -5px 0 0 #145A32 inset;
+}
+
+.page-header {
+    border-left-color: #145A32;
+}
+
+.page-header h2 {
+    color: #333;
+}
+
+ul.nav-main>li.nav-expanded>a,
+ul.nav-main>li>a:hover,
+ul.nav-main>li>a:focus,
+ul.nav-main li .nav-children,
+.sidebar-widget.widget-tasks ul li a:hover {
+    background: #154360;
+    color: #FFF;
+}
+
+ul.nav-main li .nav-children li a:hover,
+ul.nav-main li .nav-children li a:focus {
+    background: #0B5345;
+    color: #FFF;
+    font-weight: bold;
+}

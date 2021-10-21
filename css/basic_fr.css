@@ -1,0 +1,401 @@
+/* For dataTables */
+
+#examplex,
+#examplep,
+#example {
+    display: block;
+}
+
+/* calendar */
+
+table.calendar {
+    border-left: 1px solid #999;
+}
+
+tr.calendar-row {}
+
+td.calendar-day {
+    position: relative;
+}
+
+* html div.calendar-day {
+    color: #fff;
+}
+
+td.calendar-day:hover {
+    background: #eceff5;
+}
+
+td.calendar-dayyes {
+    min-height: 30px;
+    position: relative;
+    background: #166392;
+    border: 1px solid #022D39;
+}
+
+td.calendar-dayyes:hover {
+    background: #010A10;
+    color: #FFF;
+}
+
+td.calendar-day-np {
+    background: #eee;
+}
+
+* html div.calendar-day-np {}
+
+td.calendar-day-head {
+    background: #ccc;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: center;
+    width: 80px;
+    border-bottom: 1px solid #999;
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+}
+
+div.day-number {
+    background: #999;
+    color: #fff;
+    font-weight: normal;
+    float: right;
+    margin: -5px -5px 0 0;
+    width: 25px;
+    text-align: center;
+}
+
+/* shared */
+
+td.calendar-day,
+td.calendar-day-np {
+    width: 80px;
+    border-bottom: 1px solid #999;
+    border-right: 1px solid #999;
+}
+
+< !-- Basic CMS for layout start -->a img {
+    opacity: 1;
+}
+
+a img:hover {
+    opacity: 1;
+}
+
+input[type="text"],
+input[type="password"],
+textarea,
+select {
+    padding: 3px;
+    border: solid 1px #CCCCCC;
+    color: #000;
+    height: 30px;
+    max-width: 100%;
+}
+
+.circleme {
+    background-color: #4CAF50;
+    color: #FFFFFF;
+    padding: 0px;
+    border: 1px solid #4CAF50;
+    font-size: large;
+    text-align: center;
+}
+
+.circleme h6 {
+    background-color: #388E3C;
+    color: #FFFFFF;
+    padding: 3px;
+    font-size: xx-large;
+}
+
+.circleme2 {
+    background-color: #607D8B;
+    color: #FFFFFF;
+    padding: 0px;
+    border: 1px solid #607D8B;
+    font-size: large;
+    text-align: center;
+}
+
+.circleme2 h6 {
+    background-color: #455A64;
+    color: #FFFFFF;
+    padding: 3px;
+    font-size: xx-large;
+}
+
+.circleme3 {
+    background-color: #00796B;
+    color: #FFFFFF;
+    padding: 0px;
+    border: 1px solid #00796B;
+    font-size: large;
+    text-align: center;
+}
+
+.circleme3 h6 {
+    background-color: #149B8B;
+    color: #FFFFFF;
+    padding: 3px;
+    font-size: xx-large;
+}
+
+.style_border {
+    background-color: #fff;
+    color: #000000;
+    padding: 7px;
+    border: 1px solid #F1F1F1;
+    border-radius: 0px;
+    box-shadow: 0 0 8px #F1F1F1;
+}
+
+.style_border_body {
+    background-color: #fff;
+    color: #000000;
+    padding: 0px;
+    border: 1px solid #F1F1F1;
+    border-radius: 5px;
+    box-shadow: 0 0 8px #F1F1F1;
+}
+
+.style_border_red {
+    background-color: #FCF;
+    color: #000000;
+    padding: 10px;
+    border: 2px solid #C00;
+    border-radius: 0px;
+    box-shadow: 0 0 8px #C2C2C2;
+}
+
+.style_borders {
+    background-color: #fff;
+    color: #000000;
+    padding: 5px;
+    border: 1px solid #C2C2C2;
+    border-radius: 0px;
+    box-shadow: 0 0 8px #C2C2C2;
+}
+
+.style_border_pak {
+    background-color: #fff;
+    color: #000000;
+    padding: 10px;
+    border: 1px solid #5e9cb0;
+    border-radius: 0px;
+    box-shadow: 0 0 2px #5e9cb0;
+}
+
+.style_border_pak:hover {
+    background-color: #aac3cb;
+    color: #000000;
+    padding: 10px;
+    border: 1px solid #5e9cb0;
+    border-radius: 0px;
+    box-shadow: 0 0 2px #5e9cb0;
+}
+
+.style_border_slf {
+    background-color: #F1F1F1;
+    color: #000000;
+    padding: 5px;
+    border: 1px solid #FFF;
+}
+
+.style_border_sl {
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 3px;
+    border: 1px solid #F1F1F1;
+}
+
+.style_border_sl:hover {
+    background-color: #DCF7E4;
+    color: #000000;
+    padding: 3px;
+    border: 1px solid #999;
+}
+
+.style_border_slb {
+    background-color: #EBEBEB;
+    color: #000000;
+    padding: 5px;
+    border: 1px solid #F1F1F1;
+}
+
+.style_border_slbx {
+    background-color: #DFDFDF;
+    color: #999;
+    padding: 5px;
+    border: 1px solid #CCC;
+}
+
+.style_border_slby {
+    background-color: #F1F1F1;
+    color: #666;
+    padding: 5px;
+    border: 1px solid #CCC;
+}
+
+.style_border_slb2 {
+    background-color: #555;
+    color: #FFFFFF;
+    padding: 5px;
+}
+
+.style_border_sl2 {
+    background-color: #fff;
+    color: #000000;
+    padding: 5px;
+}
+
+.style_border_sl2:hover {
+    background-color: #E2F6F3;
+    color: #000000;
+    padding: 5px;
+}
+
+.style_border_s {
+    background-color: #fff;
+    color: #000000;
+    padding: 0px;
+    border: 1px solid #C2C2C2;
+    border-radius: 5px;
+    box-shadow: 0 0 8px #C2C2C2;
+}
+
+.style_border_p {
+    background-color: #fff;
+    color: #000;
+    padding: 2px;
+    border: 1px solid #999;
+}
+
+.style_border_side {
+    background-color: #fff;
+    color: #000000;
+    padding: 3px;
+    border-left: 1px solid #F1F1F1;
+    border-right: 0px solid #F1F1F1;
+}
+
+.style_border_m {
+    background-color: #fff;
+    color: #000000;
+    padding: 10px;
+    border: 1px solid #C2C2C2;
+    border-radius: 8px;
+    box-shadow: 0 0 8px #C2C2C2;
+}
+
+.roundborder_gray {
+    background-color: #F1F1F1;
+    color: #070;
+    padding: 10px;
+    border: 1px solid #F1F1F1;
+    border-radius: 0px;
+    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.roundborder_graybody {
+    background-color: #fff;
+    color: #000000;
+    padding: 10px;
+    border: 1px solid #F1F1F1;
+    border-radius: 0px;
+    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* ================================== FLASHRAJ DEFINED STYLE SHEETS ============================================= */
+
+a img {
+    border: none;
+}
+
+img {
+    page-break-inside: avoid;
+    max-width: 100% !important;
+    height: auto;
+}
+
+.f_title {
+    color: #333;
+    font-size: 15px;
+    font-weight: bold;
+    text-shadow: 0 0 2px #C2C2C2;
+}
+
+.fm_title {
+    color: #fff;
+    font-size: 15px;
+    line-height: 30px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.75);
+    padding: 0 12px;
+    margin: 0;
+}
+
+.round_table_photo {
+    background: #4D4640;
+    color: #FFF;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    margin: 0px 0 10px 0;
+    padding: 0 0px 0 0px;
+    border: solid 1px #4D4640;
+    box-shadow: 0 0 4px #4D4640;
+}
+
+.round_table_bimg {
+    background: #F1F1F1;
+    border: solid 2px #FFFFFF;
+    padding: 2px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.round_table_bimg:hover {
+    background: #FFC;
+    border: solid 2px #FFFFFF;
+    padding: 2px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.table_border2 {
+    background: #F1F1F1;
+    border: solid 2px #FFFFFF;
+    padding: 2px;
+}
+
+.table_border2:hover {
+    background: #FFC;
+    border: solid 2px #FFFFFF;
+    padding: 2px;
+}
+
+.round_table_bimg_red {
+    background: #F1F1F1;
+    padding: 2px;
+    border: solid 2px #5e9cb0;
+}
+
+.f_large {
+    font-size: 14px;
+    color: #076cc2;
+    font-weight: bolder;
+}
+
+.impact_title {
+    color: #076cc2;
+    font-size: 20px;
+    font-family: "Proxima Nova Regular", "Century Gothic", Calibri, sans-serif;
+    text-shadow: 0 0 3px #999999;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+/* ================================== end of  FLASHRAJ DEFINED STYLE SHEETS ============================================= */
